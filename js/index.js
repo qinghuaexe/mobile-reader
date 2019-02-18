@@ -214,7 +214,6 @@ function EventHanlder() {
     readerModel.nextChapter(function(data){
       readerUI(data);
     })
-    window.location.reload()
   })
 }
 main()
